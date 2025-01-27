@@ -114,7 +114,9 @@
 
     <div class="container">
       <select class="select-program">
-        <option>Bachelor of Computer Science (Honours) (DigitalMedia Production)</option>
+        <option>
+          Bachelor of Computer Science (Honours) (DigitalMedia Production)
+        </option>
       </select>
 
       <div class="student-info">
@@ -123,7 +125,11 @@
           <p>IC / Passport no: <strong>EL0468682</strong></p>
           <p>Student ID: <strong>0373538</strong></p>
           <p>
-            Programme: <strong>Bachelor of Computer Science (Honours)(DigitalMedia Production)</strong>
+            Programme:
+            <strong
+              >Bachelor of Computer Science (Honours)(DigitalMedia
+              Production)</strong
+            >
           </p>
         </div>
         <img src="images/logo.png" alt="" />
@@ -245,5 +251,20 @@
         </div>
       </div>
     </div>
+    <script>
+        // Function to check if the user is logged in
+        function checkLoginStatus() {
+          // Check if the user is logged in by looking for a specific flag in local storage
+          const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
+      
+          if (!isLoggedIn) {
+            // Redirect to login page if not logged in
+            window.location.href = 'login.html';
+          }
+        }
+      
+        // Call the function when the page loads
+        window.onload = checkLoginStatus;
+      </script>
   </body>
 </html>

@@ -146,19 +146,17 @@
   </body>
   <script>
     function validateLogin() {
-      const studentId = document.querySelector(
-        '.input-field[type="text"]'
-      ).value;
-      const password = document.querySelector(
-        '.input-field[type="password"]'
-      ).value;
-
+      const studentId = document.querySelector('.input-field[type="text"]').value;
+      const password = document.querySelector('.input-field[type="password"]').value;
+  
       // Simple validation logic
       if (studentId === "" || password === "") {
-        alert("Please fill in all fields.");
         return false;
       }
-      alert("Login successful!");
+  
+      // Simulate successful login (replace with actual login logic)
+      localStorage.setItem('isLoggedIn', 'true'); // Set login flag
+      window.location.href = 'index.html'; // Redirect to the main page
       return true; // Return true to allow form submission
     }
   </script>
