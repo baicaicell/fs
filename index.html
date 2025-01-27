@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Results</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        background-color: #d51f26;
+        color: white;
+        padding: 20px;
+      }
+
+      .header h1 {
+        margin: 0;
+        font-size: 2em;
+      }
+
+      .container {
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .select-program {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      .student-info {
+        margin-bottom: 20px;
+        display: flex;
+      }
+      .student-info img {
+        width: 50px;
+        height: 80px;
+      }
+      .student-info p {
+        font-size: 12px;
+        margin: 0;
+      }
+
+      .semester-header {
+        background-color: #666;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        margin: 20px 0;
+        font-size: 15px;
+      }
+
+      .course-table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .course-row {
+        border: 1px solid #ddd;
+        padding: 15px;
+        display: flex;
+        font-size: 12px;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .course-code {
+        font-weight: bold;
+      }
+
+      .grade {
+        text-align: right;
+        font-weight: bold;
+      }
+
+      .gpa-info {
+        text-align: right;
+        /* margin: 20px 0; */
+        font-size: 15px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      .plo-button {
+        background-color: #d51f26;
+        color: white;
+        padding: 10px 10px;
+        border: none;
+        border-radius: 25px;
+        width: 100%;
+        text-align: center;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Academic Results</h1>
+    </div>
+
+    <div class="container">
+      <select class="select-program">
+        <option>Bachelor of Computer Science (Honours) (DigitalMedia Production)</option>
+      </select>
+
+      <div class="student-info">
+        <div>
+          <h2>SUN HANWEN</h2>
+          <p>IC / Passport no: <strong>EL0468682</strong></p>
+          <p>Student ID: <strong>0373538</strong></p>
+          <p>
+            Programme: <strong>Bachelor of Computer Science (Honours)(DigitalMedia Production)</strong>
+          </p>
+        </div>
+        <img src="images/logo.png" alt="" />
+      </div>
+
+      <div class="semester-header">
+        SEMSTER2<br />
+        （September 2024 - January 2025）
+      </div>
+
+      <div style="font-weight: bold; text-align: center; margin-bottom: 10px">
+        FINAL EXAMINATION
+      </div>
+
+      <div class="course-table">
+        <div class="course-row">
+          <div>
+            <div class="course-code">COM60704</div>
+            <div class="course-code">Media Writing</div>
+          </div>
+
+          <div class="grade">B+</div>
+        </div>
+
+        <div class="course-row">
+          <div>
+            <div class="course-code">COM62604</div>
+            <div class="course-code">Innovative Media</div>
+          </div>
+          <div class="grade">B</div>
+        </div>
+
+        <div class="course-row">
+          <div>
+            <div class="course-code">UCM60303</div>
+            <div class="course-code">Social Innovation Project</div>
+          </div>
+          <div class="grade">A-</div>
+        </div>
+
+        <div class="course-row">
+          <div>
+            <div class="course-code">RES60104</div>
+            <div class="course-code">Research Methods</div>
+          </div>
+          <div class="grade">A-</div>
+        </div>
+
+        <div class="course-row">
+          <div class="course-code">
+            <div class="course-code">COM60372</div>
+            <div>Media Analytics</div>
+          </div>
+          <div class="grade">B+</div>
+        </div>
+        <div class="course-row" style="display: flex; justify-content: end">
+          <div class="gpa-info">
+            <div>
+              WGPA:
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.39
+            </div>
+            <div>
+              WCGPA:
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.39
+            </div>
+          </div>
+        </div>
+        <div class="course-row">
+          <button class="plo-button">
+            Programme Learning Outcome (PLO) attainment
+          </button>
+        </div>
+        <div class="course-row" style="display: flex; flex-direction: column">
+          <p>
+            Your GPA and CGPA or WGPA and WCGPA and/or the accumulated PLO
+            attainment for the semester are subject tochange:
+          </p>
+          <div class="abc" style="display: flex; flex-direction: column">
+            <span style="margin-bottom: 5px"
+              >a.when there is pending module grade to be released.</span
+            >
+            <span style="margin-bottom: 5px"
+              >b. when you changed your specialisation, or you haveattempted
+              more than the minirum required modules.</span
+            >
+            <span
+              >c. or any other circumstance that may affect the results.</span
+            >
+          </div>
+        </div>
+        <div class="footer-box">
+          <h5 style="color: red">Important note:</h5>
+          <div
+            class="abc"
+            style="
+              display: flex;
+              flex-direction: column;
+              font-size: 13px;
+              font-weight: bold;
+            "
+          >
+            <span style="margin-bottom: 8px"
+              >1. What can l do if i want my results reviewed? Read more</span
+            >
+            <span style="margin-bottom: 8px"
+              >2.What is "Re-sit examination" and "Re-submission" andhow much do
+              i need to pay? Read more</span
+            >
+            <span
+              >What is "Repeat with 2nd attempt" and "Repeat with 3rdattempt"?
+              Read more</span
+            >
+          </div>
+          <p style="font-size: 13px; line-height: 18px">
+            lf you have other questions about your results that are notanswered
+            above, please submit your enquiry at Campus Centralportal under Help
+            Me > General Enquiry.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
