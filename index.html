@@ -136,8 +136,8 @@
       </div>
 
       <div class="semester-header">
-        SEMSTER2<br />
-        （September 2024 - January 2025）
+        Semester: 2.5<br />
+        (February 2025 -April 2025)
       </div>
 
       <div style="font-weight: bold; text-align: center; margin-bottom: 10px">
@@ -145,12 +145,11 @@
       </div>
 
       <div class="course-table">
-        <div class="course-row">
+        <!-- <div class="course-row">
           <div>
             <div class="course-code">COM60704</div>
             <div class="course-code">Media Writing</div>
           </div>
-
           <div class="grade">B+</div>
         </div>
 
@@ -184,8 +183,32 @@
             <div>Media Analytics</div>
           </div>
           <div class="grade">B+</div>
+        </div> -->
+
+        <div class="course-row">
+          <div>
+            <div class="course-code">COM62504</div>
+            <div class="course-code">New Media and Society</div>
+          </div>
+          <div class="grade">B+</div>
         </div>
-        <div class="course-row" style="display: flex; justify-content: end">
+        <div class="course-row">
+          <div>
+            <div class="course-code">MPU3192</div>
+            <div class="course-code">Falsafah dan Is Semasa</div>
+          </div>
+          <div class="grade">A</div>
+        </div>
+        <div class="course-row">
+          <div>
+            <div class="course-code">MPU3412</div>
+            <div class="course-code">
+              Kursus Integriti Dan Antirasuah (Integrity And Anti-Corruption)
+            </div>
+          </div>
+          <div class="grade">A</div>
+        </div>
+        <!-- <div class="course-row" style="display: flex; justify-content: end">
           <div class="gpa-info">
             <div>
               WGPA:
@@ -194,6 +217,18 @@
             <div>
               WCGPA:
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.39
+            </div>
+          </div>
+        </div> -->
+        <div class="course-row" style="display: flex; justify-content: end">
+          <div class="gpa-info">
+            <div>
+              WGPA:
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.42
+            </div>
+            <div>
+              WCGPA:
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.42
             </div>
           </div>
         </div>
@@ -252,19 +287,19 @@
       </div>
     </div>
     <script>
-        // Function to check if the user is logged in
-        function checkLoginStatus() {
-          // Check if the user is logged in by looking for a specific flag in local storage
-          const isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
-      
-          if (!isLoggedIn) {
-            // Redirect to login page if not logged in
-            window.location.href = 'login.html';
-          }
+      // Function to check if the user is logged in
+      function checkLoginStatus() {
+        // Check if the user is logged in by looking for a specific flag in local storage
+        const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";
+
+        if (!isLoggedIn) {
+          // Redirect to login page if not logged in
+          window.location.href = "login.html";
         }
-      
-        // Call the function when the page loads
-        window.onload = checkLoginStatus;
-      </script>
+      }
+
+      // Call the function when the page loads
+      window.onload = checkLoginStatus;
+    </script>
   </body>
 </html>
